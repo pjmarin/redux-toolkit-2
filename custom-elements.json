@@ -1,0 +1,198 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "ReduxToolkitSecondTry",
+          "declaration": {
+            "name": "ReduxToolkitSecondTry",
+            "module": "./src/ReduxToolkitSecondTry.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "redux-toolkit-second-try.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "reduxtoolkit-secondtry",
+          "declaration": {
+            "name": "ReduxToolkitSecondTry",
+            "module": "/src/ReduxToolkitSecondTry.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/ReduxToolkitSecondTry.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "ReduxToolkitSecondTry",
+          "members": [
+            {
+              "kind": "method",
+              "name": "increment"
+            },
+            {
+              "kind": "method",
+              "name": "decrement"
+            },
+            {
+              "kind": "field",
+              "name": "defaultState",
+              "privacy": "public",
+              "attribute": "defaultState"
+            },
+            {
+              "kind": "field",
+              "name": "posts",
+              "privacy": "public",
+              "attribute": "posts"
+            },
+            {
+              "kind": "field",
+              "name": "store",
+              "privacy": "public",
+              "attribute": "store"
+            },
+            {
+              "kind": "field",
+              "name": "counter",
+              "privacy": "public",
+              "attribute": "counter"
+            }
+          ],
+          "attributes": [
+            {
+              "name": "posts",
+              "fieldName": "posts"
+            },
+            {
+              "name": "defaultState",
+              "fieldName": "defaultState"
+            },
+            {
+              "name": "store",
+              "fieldName": "store"
+            },
+            {
+              "name": "counter",
+              "fieldName": "counter"
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit"
+          },
+          "tagName": "reduxtoolkit-secondtry",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "ReduxToolkitSecondTry",
+          "declaration": {
+            "name": "ReduxToolkitSecondTry",
+            "module": "src/ReduxToolkitSecondTry.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "stories/index.stories.js",
+      "declarations": [
+        {
+          "kind": "variable",
+          "name": "Regular"
+        },
+        {
+          "kind": "variable",
+          "name": "CustomTitle"
+        },
+        {
+          "kind": "variable",
+          "name": "CustomCounter"
+        },
+        {
+          "kind": "variable",
+          "name": "SlottedContent"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "module": "stories/index.stories.js"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "Regular",
+          "declaration": {
+            "name": "Regular",
+            "module": "stories/index.stories.js"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "CustomTitle",
+          "declaration": {
+            "name": "CustomTitle",
+            "module": "stories/index.stories.js"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "CustomCounter",
+          "declaration": {
+            "name": "CustomCounter",
+            "module": "stories/index.stories.js"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "SlottedContent",
+          "declaration": {
+            "name": "SlottedContent",
+            "module": "stories/index.stories.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/redux/store.js",
+      "declarations": [
+        {
+          "kind": "variable",
+          "name": "store"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "store",
+            "module": "src/redux/store.js"
+          }
+        }
+      ]
+    }
+  ]
+}
